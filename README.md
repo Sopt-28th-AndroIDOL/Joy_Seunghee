@@ -2,11 +2,10 @@
 
 ### 레포지터리 이름이 너무 긴경우 뒤에 ...이 나오도록 처리
 
-
-        ```Kotlin
+```Kotlin
         android:ellipsize="end"
         android:maxLines="1"
-        ```
+```
         
 ### 홈에서 more버튼 누르면 화면 이동
 
