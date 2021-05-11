@@ -1,6 +1,6 @@
-package org.sopt.androidseminar
+package org.sopt.androidseminar.data
 
-data class ReposInfo (
+data class GithubReposInfo (
     val reposName: String,
     val aboutRepos: String,
     val language: String

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".presentation.home.HomeActivity">
 
     <ImageView
         android:id="@+id/img"
@@ -19,7 +19,7 @@
         android:src = "@drawable/img" />
 
     <TextView
-        android:id="@+id/githubID"
+        android:id="@+id/tv_github_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="lydiacho"
@@ -30,38 +30,38 @@
         android:textSize="10sp" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SeungHee Cho"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/githubID"
+        app:layout_constraintTop_toBottomOf="@id/tv_github_id"
         android:layout_marginStart="30dp"
         android:textSize="20sp"
         android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/introduction"
+        android:id="@+id/tv_intro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="자기소개 채워주세유"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
         android:layout_marginStart="30dp"
         android:layout_marginHorizontal="30dp"/>
 
     <Button
-        android:id="@+id/more"
+        android:id="@+id/btn_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/introduction"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_intro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/name"
+        app:layout_constraintTop_toTopOf="@+id/tv_name"
         android:text="MORE" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/repos_list"
+        android:id="@+id/rv_repos_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="15dp"
@@ -69,7 +69,7 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/introduction"
+        app:layout_constraintTop_toBottomOf="@+id/tv_intro"
         tools:listitem="@layout/item_repos" />
 
 

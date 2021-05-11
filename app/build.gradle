@@ -47,4 +47,9 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'  //서버 연결을 위한 레트로핏2
+    implementation 'com.google.code.gson:gson:2.8.6'  // 객체 시리얼라이즈를 위한 Gson lib
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'  // 레트로핏2에서 Gson 사용하기 위한 컨버터 lib
+
 }
