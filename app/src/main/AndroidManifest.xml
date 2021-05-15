@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AndroidSeminar">
         <activity android:name=".presentation.home.UserInfoActivity"/>
         <activity android:name=".presentation.home.HomeActivity"/>
-        <activity android:name=".presentation.signup.SignupActivity" />
+        <activity android:name=".presentation.signup.SignUpActivity" />
         <activity android:name=".presentation.signin.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

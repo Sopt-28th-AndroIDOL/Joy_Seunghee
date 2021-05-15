@@ -35,29 +35,29 @@ class HomeActivity : AppCompatActivity() {
         githubReposAdapter.githubReposList.addAll(
                 listOf<GithubReposInfo>(
                     GithubReposInfo(
-                        reposName = "이름1을길게길게길게길게길게길게길게길게어쩌구저쩌구",
-                        aboutRepos = "설명1을길게길게길게길게길게길게길게길게어쩌구저쩌구",
+                        reposName = "AndroidSeminar",
+                        aboutRepos = "SOPT 안드로이드 파트 세미나 과제 연습하는 레포지터리",
                         language = "kotlin"
                     ),
                     GithubReposInfo(
-                        reposName = "이름2",
-                        aboutRepos = "설명2",
+                        reposName = "SeminarGitTest",
+                        aboutRepos = "깃 사용 전 테스트를 위해 만든 레포지터리",
+                        language = "Java"
+                    ),
+                    GithubReposInfo(
+                        reposName = "AwesomeRobotProject",
+                        aboutRepos = "깃뿌 스터디에서 멘토님과 만들어본 로봇제작 레포지터리",
                         language = "kotlin"
                     ),
                     GithubReposInfo(
-                        reposName = "이름3",
-                        aboutRepos = "설명3",
-                        language = "kotlin"
+                        reposName = "SeungHee",
+                        aboutRepos = "사용자가 처음으로 만들어본 레포지터리",
+                        language = "C"
                     ),
                     GithubReposInfo(
-                        reposName = "이름4",
-                        aboutRepos = "설명4",
-                        language = "kotlin"
-                    ),
-                    GithubReposInfo(
-                        reposName = "이름5",
-                        aboutRepos = "설명5",
-                        language = "kotlin"
+                        reposName = "RepoRepoRepos",
+                        aboutRepos = "이건 그냥 다섯번째 칸을 위해 만들었다 치는 레포지터리",
+                        language = "Arduino"
                     )
                 )
             )
