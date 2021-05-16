@@ -180,7 +180,9 @@ private fun signUpButtonClickEvent() {
 
 ✏ 중간고사 시험기간 동안 이해 못한 채로 얼레벌레 했던 과제들을 다시 복습하고 이해하면서 재정비해보았다
 (각종 네이밍 재설정!!)
+
 ✏ 3차 세미나 복습을 하면서 디자인도 바꿔보고, Figma를 활용하여 icon, color를 넣어봤다!
+
 ✏ intent를 앞에서 정의해줄 경우, by lazy 통해 startActivity(toHomeIntent) 하는 순간에 미리 설정해둔 값으로 초기화가 되도록 해준다!
 (var는 lateinit, val는 by lazy)
 
