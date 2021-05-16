@@ -2,8 +2,28 @@
 
 ## Seminar Week4 Assignment (LV1)
 
-* 패키징
-//이미지 넣기
+### 🎀 구현해보기 🎀
+
+💙회원가입
+
+<img src="https://user-images.githubusercontent.com/81505421/118391269-67db1180-b66e-11eb-81df-bfb9a721b56d.gif"  width="200">
+
+💙로그인
+
+<img src="https://user-images.githubusercontent.com/81505421/118391262-63aef400-b66e-11eb-9350-ebb59ff9e07a.gif"  width="200">
+
+
+💙Postman 테스트
+
+* 로그인 성공
+
+<img src="https://user-images.githubusercontent.com/81505421/118391160-da97bd00-b66d-11eb-8c80-9ad3314cb4a1.PNG"  width="700">
+
+* 회원가입 중복(에뮬레이터에서 회원가입 완료)
+
+<img src="https://user-images.githubusercontent.com/81505421/118391167-dff50780-b66d-11eb-8ce3-f32ecd9b8845.PNG"  width="700">
+
+
 
 ### 🎀 Interface 🎀
 ```kotlin
@@ -149,4 +169,18 @@ private fun signUpButtonClickEvent() {
                 requestSignUp()
             }
         }
-    ```
+```
+
+
+* 패키징
+<img src="https://user-images.githubusercontent.com/81505421/118391162-dd92ad80-b66d-11eb-9e53-0f6b52dc8118.PNG"  width="200">
+
+
+### 🎀 성장 🎀
+
+✏ 중간고사 시험기간 동안 이해 못한 채로 얼레벌레 했던 과제들을 다시 복습하고 이해하면서 재정비해보았다
+(각종 네이밍 재설정!!)
+✏ 3차 세미나 복습을 하면서 디자인도 바꿔보고, Figma를 활용하여 icon, color를 넣어봤다!
+✏ intent를 앞에서 정의해줄 경우, by lazy 통해 startActivity(toHomeIntent) 하는 순간에 미리 설정해둔 값으로 초기화가 되도록 해준다!
+(var는 lateinit, val는 by lazy)
+
