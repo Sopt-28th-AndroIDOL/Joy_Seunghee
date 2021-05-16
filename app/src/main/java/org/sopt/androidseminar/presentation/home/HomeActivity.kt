@@ -35,8 +35,8 @@ class HomeActivity : AppCompatActivity() {
         githubReposAdapter.githubReposList.addAll(
                 listOf<GithubReposInfo>(
                     GithubReposInfo(
-                        reposName = "AndroidSeminar",
-                        aboutRepos = "SOPT 안드로이드 파트 세미나 과제 연습하는 레포지터리",
+                        reposName = "AndroidSeminarAndroidSeminarAndroidSeminarAndroidSeminar",
+                        aboutRepos = "말줄임표 보이려면 width를 match-parent로 해야돼!",
                         language = "kotlin"
                     ),
                     GithubReposInfo(
@@ -46,7 +46,7 @@ class HomeActivity : AppCompatActivity() {
                     ),
                     GithubReposInfo(
                         reposName = "AwesomeRobotProject",
-                        aboutRepos = "깃뿌 스터디에서 멘토님과 만들어본 로봇제작 레포지터리",
+                        aboutRepos = "깃뿌 스터디에서 만들어본 로봇제작 레포지터리",
                         language = "kotlin"
                     ),
                     GithubReposInfo(
@@ -55,8 +55,8 @@ class HomeActivity : AppCompatActivity() {
                         language = "C"
                     ),
                     GithubReposInfo(
-                        reposName = "RepoRepoRepos",
-                        aboutRepos = "이건 그냥 다섯번째 칸을 위해 만들었다 치는 레포지터리",
+                        reposName = "AlarmClockProject_ArduinoUno",
+                        aboutRepos = "학교 전공 과제 아두이노 아무것도 모르겠음",
                         language = "Arduino"
                     )
                 )
