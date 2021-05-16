@@ -1,8 +1,7 @@
-package org.sopt.androidseminar.presentation.home
+package org.sopt.androidseminar
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import org.sopt.androidseminar.R
 import org.sopt.androidseminar.databinding.ActivityUserInfoBinding
 
 class UserInfoActivity : AppCompatActivity() {
@@ -14,8 +13,7 @@ class UserInfoActivity : AppCompatActivity() {
         binding = ActivityUserInfoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val followingListFragment =
-            FollowingListFragment()
+        val followingListFragment = FollowingListFragment()
 
         val transaction = supportFragmentManager.beginTransaction()
         transaction.add(R.id.user_info_fragment,followingListFragment)
