@@ -71,7 +71,7 @@
         android:textSize="15sp" />
 
     <Button
-        android:id="@+id/signButton"
+        android:id="@+id/signupButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"

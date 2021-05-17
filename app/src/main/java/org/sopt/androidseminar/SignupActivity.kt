@@ -4,8 +4,8 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
-import org.sopt.androidseminar.databinding.ActivitySignInBinding
 import org.sopt.androidseminar.databinding.ActivitySignupBinding
 
 class SignupActivity : AppCompatActivity() {
@@ -14,6 +14,7 @@ class SignupActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("SignUpLog", "onCreate")
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -21,7 +22,7 @@ class SignupActivity : AppCompatActivity() {
     }
 
     private fun initButtonClickEvent() {
-        binding.signButton.setOnClickListener {
+        binding.signupButton.setOnClickListener {
             val toSignInIntent = Intent(this@SignupActivity, SignInActivity::class.java)
             val userName = binding.editName.text.toString()
             val userID = binding.editGithubID.text.toString()
@@ -35,6 +36,31 @@ class SignupActivity : AppCompatActivity() {
                 finish()
             }
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("SignUpLog", "onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("SignUpLog", "onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("SignUpLog", "onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("SignUpLog", "onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("SignUpLog", "onDestroy")
     }
 
 }
