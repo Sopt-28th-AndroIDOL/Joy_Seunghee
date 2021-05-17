@@ -11,9 +11,9 @@ class FollowingListAdapter : RecyclerView.Adapter<FollowingListAdapter.Following
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FollowingUserViewHolder {
         val binding = ItemFollowUserBinding.inflate(
-            LayoutInflater.from(parent.context),
-            parent,
-            false
+                LayoutInflater.from(parent.context),
+                parent,
+                false
         )
         return FollowingUserViewHolder(binding)
     }
@@ -25,7 +25,7 @@ class FollowingListAdapter : RecyclerView.Adapter<FollowingListAdapter.Following
     }
 
     class FollowingUserViewHolder(
-        private val binding: ItemFollowUserBinding
+            private val binding: ItemFollowUserBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun onBind(followingUserInfo: FollowingUserInfo) {
             binding.followUserName.text = followingUserInfo.userName

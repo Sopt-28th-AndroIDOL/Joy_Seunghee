@@ -15,9 +15,9 @@ class FollowingListFragment : Fragment() {
     private lateinit var followingListAdapter: FollowingListAdapter
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         val _binding = FragmentFollowingListBinding.inflate(inflater, container, false)
         return binding.root
@@ -31,24 +31,24 @@ class FollowingListFragment : Fragment() {
         binding.userList.adapter = followingListAdapter
 
         followingListAdapter.userList.addAll(
-            listOf<FollowingUserInfo>(
-                FollowingUserInfo(
-                    userImage = "지금은 빈칸! 4차때 넣어봅시다!",
-                    userName = "Lydia"
-                ),
-                FollowingUserInfo(
-                    userImage = "지금은 빈칸! 4차때 넣어봅시다!",
-                    userName = "Lljlk1"
-                ),
-                FollowingUserInfo(
-                    userImage = "지금은 빈칸! 4차때 넣어봅시다!",
-                    userName = "kutfkuy6"
-                ),
-                FollowingUserInfo(
-                    userImage = "지금은 빈칸! 4차때 넣어봅시다!",
-                    userName = "jg8"
+                listOf<FollowingUserInfo>(
+                        FollowingUserInfo(
+                                userImage = "지금은 빈칸! 4차때 넣어봅시다!",
+                                userName = "Lydia"
+                        ),
+                        FollowingUserInfo(
+                                userImage = "지금은 빈칸! 4차때 넣어봅시다!",
+                                userName = "Lljlk1"
+                        ),
+                        FollowingUserInfo(
+                                userImage = "지금은 빈칸! 4차때 넣어봅시다!",
+                                userName = "kutfkuy6"
+                        ),
+                        FollowingUserInfo(
+                                userImage = "지금은 빈칸! 4차때 넣어봅시다!",
+                                userName = "jg8"
+                        )
                 )
-            )
         )
 
         followingListAdapter.notifyDataSetChanged()
