@@ -8,7 +8,7 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/follow_user_image"
+        android:id="@+id/img_follow_user_image"
         android:layout_width="50dp"
         android:layout_height="0dp"
         android:src="@mipmap/ic_launcher"
@@ -18,16 +18,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/follow_user_name"
+        android:id="@+id/tv_follow_user_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginHorizontal="16dp"
-        app:layout_constraintBottom_toBottomOf="@id/follow_user_image"
+        app:layout_constraintBottom_toBottomOf="@id/img_follow_user_image"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/follow_user_image"
-        app:layout_constraintTop_toTopOf="@id/follow_user_image"
+        app:layout_constraintStart_toEndOf="@id/img_follow_user_image"
+        app:layout_constraintTop_toTopOf="@id/img_follow_user_image"
         tools:text="userId"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
